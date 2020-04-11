@@ -1,7 +1,6 @@
 import LocalAuthentication
 import SwiftUI
 
-
 struct someView: View{
 
     @State private var isUnlocked = false
@@ -31,7 +30,7 @@ struct someView: View{
                 }
             }
         } else {
-            // no biometrics
+            // Here no biometric found like the iPod
         }
     }
 }
