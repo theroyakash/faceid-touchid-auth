@@ -21,3 +21,5 @@ Swift developers use the Error protocol for representing errors that occur at ru
 - If biometrics are possible, then we start the actual request for authentication, passing in a closure to run when authentication completes.
 
 - When the user has either been authenticated or not, our completion closure will be called and tell us whether it worked or not, and if not what the error was. This closure will get called away from the main thread, so we need to push any UI-related work back to the main thread.
+
+![Imgur](https://i.imgur.com/d9KhbNJ.jpg)
